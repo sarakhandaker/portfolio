@@ -15,13 +15,14 @@ class Project extends Component {
         };
         return (
         <div class="col-sm-6">
-            <div className="card bg-light mb-3" style={{"width": "18rem;"}}>
+            <div className="card bg-light mb-3" style={{"width": "8rem;"}}>
                 <br/>
                 <YouTube videoId={this.props.url} opts={opts} onReady={this._onReady} />
                 <div class="card-body">
                     <h5 class="card-title">{this.props.title}</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go To Website</a>
+                    <p class="card-text">{this.props.service}</p>
+                    {this.props.website? <a href={this.props.website} class="btn btn-primary">Go To Website</a>: null}
+                    <a href={this.props.git} class="btn btn-secondary">Go To Github</a>
                 </div>
             </div>
         </div>

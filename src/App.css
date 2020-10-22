@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #636466;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -135,7 +135,7 @@ iframe {
 }
 
 .project-div, .contact-div {
-  background-color: #282c34;
+  background-color: #636466;
   color: aliceblue;
 }
 
@@ -145,7 +145,7 @@ iframe {
   margin-top: 20px;
 }
 
-.card-body h5 {
+.card-body h5, .card-body p {
   color: black;
 }
 

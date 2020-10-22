@@ -4,40 +4,40 @@ import Project from './SingleProject';
 const projects = [
     {
      id: 1,
-     title:'Seattle Parks App', //Project Title - Add Your Project Title Here
-      service:'UI/UX Design', // Add Your Service Type Here
-     //Project Image - Add Your Project Image Here
-      imageSrc:"https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-      //Project URL - Add Your Project Url Here
-      url:'Hw1bejO-QSQ'
+     title:'Seattle Parks App',
+      service:'Application that allows users to explore, discover and rate the many parks in the Seattle area',
+      url:'Hw1bejO-QSQ',
+      website: "https://cpark-app.herokuapp.com",
+      git:"https://github.com/sarakhandaker/seattle-parks-react"
      },
      {
          id: 2,
          title: 'TV Binge App',
-         service: 'Website Development',
-         imageSrc: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-         url: 'APDFt2DpePc'
+         service: 'A TV Show tracking tool that allows users to manage the shows and episodes they are currently watching',
+         url: 'APDFt2DpePc',
+         website: "https://sarakhandaker.github.io/bingeapp/",
+         git:"https://github.com/sarakhandaker/bingeapp"
      },
      { 
          id: 3,
          title: 'PairUp!',
-         service: 'Web App',
-         imageSrc: "https://images.unsplash.com/photo-1511500118080-275313ec90a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-         url: 'ESqVLdMqoPE'
+         service: 'A matching pairs memory game app that improves user memory and cognitive functions',
+         url: 'ESqVLdMqoPE',
+         git:"https://github.com/sarakhandaker/PairUp"
      },
      {
          id: 4,
          title: 'OutofStock',
-         service: 'Branding',
-         imageSrc: "https://images.unsplash.com/photo-1558452919-08ae4aea8e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-         url: '5L9V4VFsdFs'
+         service: 'App that keeps track of missing items at grocery stores by allowing users to report missing items on thier visits to the grocery store.',
+         url: '5L9V4VFsdFs',
+         git:"https://github.com/sarakhandaker/grocery_tracker_seattle"
     },
     {
         id: 5,
         title: 'King County Metro App',
-        service: 'Branding',
-        imageSrc: "https://images.unsplash.com/photo-1558452919-08ae4aea8e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-        url: '9jvFevyB9rw'
+        service: 'CLI app allows users to find the nearest KC Metro bus stop to any address and manage these stops and their commutes',
+        url: '9jvFevyB9rw',
+        git:"https://github.com/sarakhandaker/CLI_Transit_App_Ruby"
    }
 ]
 
@@ -51,13 +51,13 @@ class Work extends Component {
         <hr/>
         <div className= "container">
         <div className='work-content row '>
-
                 {projects.map((project)=>(
                     <Project key={project.id}
                              title = {project.title}
                              service = {project.service}
-                             imageSrc = {project.imageSrc}
+                             website = {project.website}
                              url={project.url}
+                             git={project.git}
                      ></Project>
                 ))}
         </div>
