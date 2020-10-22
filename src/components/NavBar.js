@@ -44,7 +44,7 @@ class Navbar extends Component {
                     >Blog</Link></li>
                     <li className="nav-list-item">
                         <span className="mr-3"> Contact: </span>
-                        <a href={`mailto:kttsara@gmil.com`}><i class="fa fa-envelope"></i></a>
+                        <a href={`mailto:kttsara@gmail.com`}><i class="fa fa-envelope"></i></a>
                         <a href="https://www.linkedin.com/in/sara-khandaker/"><i class="fa fa-linkedin"></i></a>
                         <a href="https://github.com/sarakhandaker"><i class="fa fa-github"></i></a>
                         
