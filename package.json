@@ -2,12 +2,14 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://sarakhandaker.github.io/portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.3",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.0",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.0",
@@ -20,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
