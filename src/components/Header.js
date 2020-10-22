@@ -7,15 +7,14 @@ class Header extends Component {
 
     render() {
         return (<div>
-        <h1 className='heading-background'>CREATIVE</h1>
             <header>
+            <img src="https://avatars3.githubusercontent.com/u/60558804?s=460&u=0282bcd2024786e7e00f2ae659c724c9b14524ce&v=4" className="img-circle" alt='about'></img>
                 <h1>Sara Khandaker</h1>
             </header>
             <p className='header-title'>
-            Junior Software Developer<br></br>Former Civil Engineer<br></br>
+            Full Stack Software Developer<br></br>
             Passion For Innovating Solutions for Urban Environments
                <br></br>
-                    <button><a href={`mailto:kttsara@gmail.com`} rel="noopener noreferrer" >Contact</a></button>
                 </p>
         </div>);
     }

@@ -3,35 +3,42 @@ import Project from './SingleProject';
 
 const projects = [
     {
-     id: 1,//DO NOT CHANGE THIS (Please)😅
-     title:'Project One', //Project Title - Add Your Project Title Here
+     id: 1,
+     title:'Seattle Parks App', //Project Title - Add Your Project Title Here
       service:'UI/UX Design', // Add Your Service Type Here
      //Project Image - Add Your Project Image Here
       imageSrc:"https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
       //Project URL - Add Your Project Url Here
-      url:'http://chetanverma.com/'
+      url:'Hw1bejO-QSQ'
      },
      {
-         id: 2,//DO NOT CHANGE THIS (Please)😅
-         title: 'Project Two',
+         id: 2,
+         title: 'TV Binge App',
          service: 'Website Development',
          imageSrc: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-         url: 'http://chetanverma.com/'
+         url: 'APDFt2DpePc'
      },
      { 
-         id: 3,//DO NOT CHANGE THIS (Please)😅
-         title: 'Project Three',
+         id: 3,
+         title: 'PairUp!',
          service: 'Web App',
          imageSrc: "https://images.unsplash.com/photo-1511500118080-275313ec90a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-         url: 'http://chetanverma.com/'
+         url: 'ESqVLdMqoPE'
      },
      {
-         id: 4,//DO NOT CHANGE THIS (Please)😅
-         title: 'Project Four',
+         id: 4,
+         title: 'OutofStock',
          service: 'Branding',
          imageSrc: "https://images.unsplash.com/photo-1558452919-08ae4aea8e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-         url: 'http://chetanverma.com/'
-    }
+         url: '5L9V4VFsdFs'
+    },
+    {
+        id: 5,
+        title: 'King County Metro App',
+        service: 'Branding',
+        imageSrc: "https://images.unsplash.com/photo-1558452919-08ae4aea8e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        url: '9jvFevyB9rw'
+   }
 ]
 
 
@@ -39,9 +46,12 @@ class Work extends Component {
     
     state = {  }
     render() { 
-        return (<div>
+        return (<div className= "mt-3 p-3 project-div ">
         <h1 className='heading'>Projects</h1>
-        <div className='work-content'>
+        <hr/>
+        <div className= "container">
+        <div className='work-content row '>
+
                 {projects.map((project)=>(
                     <Project key={project.id}
                              title = {project.title}
@@ -50,6 +60,7 @@ class Work extends Component {
                              url={project.url}
                      ></Project>
                 ))}
+        </div>
         </div>
         </div>  );
     }
