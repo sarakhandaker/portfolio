@@ -4,7 +4,6 @@ import About from './components/About';
 import Navbar from './components/NavBar';
 import Header from './components/Header'
 import Projects from './components/Projects'
-import Contact from './components/Contact'
 import Blog from './components/Blog'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -24,9 +23,6 @@ function App() {
         </div>
         <div className='Blog'>
           <Blog></Blog>
-        </div>
-        <div className='Contact'>
-          <Contact></Contact>
         </div>
       </div>
     </>
