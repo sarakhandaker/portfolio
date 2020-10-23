@@ -13,22 +13,17 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 body {
   margin: 0;
   padding: 0;
 }
+
 .contact {
   font-size: 25px;
   color: rgba(0,0,0,.5);
 }
 
-
 @media screen and (max-width: 400px) {
-  
   nav.main-navigation ul.nav-list {
     text-align: left;
   }
@@ -40,11 +35,6 @@ body {
     margin-top: 2px;
     font-size: 5px;
     cursor: pointer;
-    color: #D1D5DE;
-  }
-
-  .contact {
-    font-size: 5px;
     color: #D1D5DE;
   }
 

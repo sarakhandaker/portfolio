@@ -43,17 +43,15 @@ class Navbar extends Component {
                             offset={-70}
                             duration={500}
                         >Blog</Link></li>
-                        
                     </ul>
-                    <div className="contact"> 
-                    <span style={{"marginRight": "10px"}}> Contact: </span>
-                    <a href={`mailto:kttsara@gmail.com`}><i class="fa fa-envelope"></i></a>
-                    <a href="https://www.linkedin.com/in/sara-khandaker/"><i class="fa fa-linkedin"></i></a>
-                    <a href="https://github.com/sarakhandaker"><i class="fa fa-github"></i></a>
-                    </div>
                 </div>
                 <div>
-
+                    <div className="contact">
+                        <span style={{ "marginRight": "10px" }}> Contact: </span>
+                        <a href={`mailto:kttsara@gmail.com`}><i class="fa fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/sara-khandaker/"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/sarakhandaker"><i class="fa fa-github"></i></a>
+                    </div>
                 </div>
             </nav>
         );

@@ -13,7 +13,7 @@ class Header extends Component {
             </header>
             <p className='header-title'>
             Full Stack Software Developer<br></br>
-            Passion For Innovating Solutions for Urban Environments
+            Innovating Solutions for Urban Environments
                <br></br>
                 </p>
         </div>);
