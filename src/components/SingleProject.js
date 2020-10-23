@@ -10,7 +10,7 @@ class Project extends Component {
     render() {
         const opts = {
             height: '270',
-            width: '450',
+            width: '80%',
             playerVars: { autoplay: 1 }
         };
         return (
