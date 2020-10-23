@@ -37,7 +37,7 @@ h1 {
 @media screen and (max-width: 400px) {
 
   .techlogo {
-    height: 25px;
+    height: 60px;
     width: auto;
     margin: 0;
   }
