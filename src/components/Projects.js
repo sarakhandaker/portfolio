@@ -34,7 +34,7 @@ const projects = [
     },
     {
         id: 5,
-        title: 'King County Metro App',
+        title: 'King County Metro CLI App',
         service: 'CLI app allows users to find the nearest KC Metro bus stop to any address and manage these stops and their commutes',
         url: '9jvFevyB9rw',
         git: "https://github.com/sarakhandaker/CLI_Transit_App_Ruby"
@@ -61,7 +61,6 @@ class Work extends Component {
                 <div className='work-content row card-deck'>
                     <div class="col-sm-6">
                         <div class="card cardproject p-3">
-                            <h4>List of Projects</h4>
                             <ul class="list-group list-group-flush text-left">
                                 {projects.map((project) => (
                                     <li
