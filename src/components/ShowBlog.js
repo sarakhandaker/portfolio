@@ -23,7 +23,7 @@ function ShowBlog(props) {
   
           <div className="card-body">
             <h5 className="card-title">
-                <a href={props.title} className={c.textfiordblue}>{props.title}</a>
+                <a href={props.link} className={c.textfiordblue}>{props.title}</a>
             </h5>
   
             <p className={c.cardText}>{`${ToText(

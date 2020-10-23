@@ -21,8 +21,8 @@ class Project extends Component {
                 <div class="card-body">
                     <h5 class="card-title">{this.props.title}</h5>
                     <p class="card-text">{this.props.service}</p>
-                    {this.props.website? <a href={this.props.website} class="btn btn-primary">Go To Website</a>: null}
-                    <a href={this.props.git} class="btn btn-secondary">Go To Github</a>
+                    {this.props.website? <a href={this.props.website} class="btn btn-primary">Website</a>: null}
+                    <a href={this.props.git} class="btn btn-secondary">Github</a>
                 </div>
             </div>
         </div>
