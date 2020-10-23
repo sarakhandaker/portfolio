@@ -9,14 +9,14 @@ class Navbar extends Component {
         return (
             <nav className="main-navigation">
                 <ul className="nav-list">
-                    <li className="nav-list-item"><Link className='link' activeClass="active" to="home" spy={true}
+                    <li className="nav-list-item"><Link className='link nav-item nav-link' activeClass="active" to="home" spy={true}
                         smooth={true}
                         offset={-70}
                         duration={500}
                         onClick={this.scrollToTop}
                     >Home</Link></li>
                     <li className="nav-list-item"><Link
-                        className='link'
+                        className='link nav-item nav-link'
                         activeClass="active"
                         to="About"
                         spy={true}
@@ -25,7 +25,7 @@ class Navbar extends Component {
                         duration={500}
                     >About</Link></li>
                     <li className="nav-list-item"><Link
-                        className='link'
+                        className='link nav-item nav-link'
                         activeClass="active"
                         to="Projects"
                         spy={true}
@@ -34,7 +34,7 @@ class Navbar extends Component {
                         duration={500}
                     >Projects</Link></li>
                     <li className="nav-list-item"><Link
-                        className='link'
+                        className='link nav-item nav-link'
                         activeClass="active"
                         to="Blog"
                         spy={true}
@@ -47,11 +47,7 @@ class Navbar extends Component {
                         <a href={`mailto:kttsara@gmail.com`}><i class="fa fa-envelope"></i></a>
                         <a href="https://www.linkedin.com/in/sara-khandaker/"><i class="fa fa-linkedin"></i></a>
                         <a href="https://github.com/sarakhandaker"><i class="fa fa-github"></i></a>
-                        
                     </li>
-                </ul>
-                <ul className="navbar-nav">
-
                 </ul>
             </nav>
         );
