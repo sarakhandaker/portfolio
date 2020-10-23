@@ -18,6 +18,11 @@ body {
   padding: 0;
 }
 
+.image-circle {
+  width: 100%;
+  height: auto;
+}
+
 .contact {
   font-size: 25px;
   font-family: 'Suez One', serif;

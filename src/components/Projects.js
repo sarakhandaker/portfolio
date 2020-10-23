@@ -70,7 +70,7 @@ class Work extends Component {
                                         onClick={()=>this.setProject(project.id)}
                                        id= {selectedProject.id=== project.id? "selected" :""}
                                     >
-                                        {selectedProject.id=== project.id? <strong style={{"color": "#B7B6C2"}}>{project.title}</strong>:project.title}
+                                        {selectedProject.id=== project.id? <span style={{"color": "#B7B6C2"}}><i class="fa fa-play mr-3"></i><strong >{project.title}</strong></span>:project.title }
                                     </li>
                                 ))}
                             </ul>
