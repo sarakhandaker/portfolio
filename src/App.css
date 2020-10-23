@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #636466;
+  background-color: #B7B6C2;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,6 +35,7 @@ body {
     margin-top: 2px;
     font-size: 5px;
     cursor: pointer;
+    color: #D1D5DE;
   }
 
   ul.nav-list{
@@ -46,7 +47,7 @@ body {
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  background-color: aliceblue;
+  background-color: #2E2836;
   z-index:1;
 }
 
@@ -56,11 +57,12 @@ nav.main-navigation ul.nav-list {
 
 .nav-list li.nav-list-item {
   display: inline-block;
-  line-height: 40px;
+  line-height: 25px;
   margin-left: 30px;
   margin-top: 15px;
   font-size: 25px;
   cursor: pointer;
+  color: #D1D5DE;
 }
 
 @keyframes FadeIn {
@@ -154,8 +156,7 @@ iframe {
 }
 
 .project-div, .contact-div {
-  background-color: #636466;
-  color: aliceblue;
+  background-color: #B7B6C2;
 }
 
 .img-circle {
@@ -176,4 +177,25 @@ a+a {
 nav ul li:last-child { 
   float: right; 
   margin-right: 30px;
+}
+
+.cardproject {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+  box-shadow: 0 5px 0 rgba(90, 97, 105, 0.11), 0 4px 8px rgba(90, 97, 105, 0.12), 0 10px 10px rgba(90, 97, 105, 0.06), 0 7px 70px rgba(90, 97, 105, 0.1);
+  background-color: #fff;
+  border: none;
+  border-radius: 0.625rem;
+}
+
+#selected {
+  color: #B7B6C2;
+  background-color: #2E2836;
 }

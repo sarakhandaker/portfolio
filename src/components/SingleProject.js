@@ -15,7 +15,7 @@ class Project extends Component {
         };
         return (
         <div class="col-sm-6">
-            <div className="card bg-light mb-3" style={{"width": "8rem;"}}>
+            <div className="card bg-light mb-3 cardproject" style={{"width": "8rem;"}}>
                 <br/>
                 <YouTube videoId={this.props.url} opts={opts} onReady={this._onReady} />
                 <div class="card-body">
