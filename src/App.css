@@ -21,6 +21,11 @@ body {
   margin: 0;
   padding: 0;
 }
+.contact {
+  font-size: 25px;
+  color: rgba(0,0,0,.5);
+}
+
 
 @media screen and (max-width: 400px) {
   
@@ -28,13 +33,18 @@ body {
     text-align: left;
   }
   
-  .nav-list li.nav-list-item {
+  .nav-list li.nav-list-item,{
     display: inline-block;
     line-height: 10px;
     margin-left: 10px;
     margin-top: 2px;
     font-size: 5px;
     cursor: pointer;
+    color: #D1D5DE;
+  }
+
+  .contact {
+    font-size: 5px;
     color: #D1D5DE;
   }
 
@@ -199,3 +209,35 @@ nav ul li:last-child {
   color: #B7B6C2;
   background-color: #2E2836;
 }
+
+.list-type4{
+  width:410px;
+  margin:0 auto;
+  }
+  
+  .list-type4 ul{
+  counter-reset: li;
+  list-style: none;
+  *list-style: decimal;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin-bottom: 4em;
+  }
+  .list-type4 li{
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em 2em;
+  *padding: .4em;
+  margin: .5em 5em;
+  background: #2E2836;
+  color: white;
+  text-decoration: none;
+  box-shadow:inset 0.5em 0 #B7B6C2;
+  -webkit-transition: box-shadow 1s; /* For Safari 3.1 to 6.0 */
+  transition: box-shadow 1s;
+  }
+  
+  .list-type4 li:hover{
+    box-shadow:inset 2em 0 #B7B6C2;
+    }
