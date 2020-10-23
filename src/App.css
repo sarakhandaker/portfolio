@@ -243,3 +243,7 @@ nav ul li:last-child {
   .list-type4 li:hover{
     box-shadow:inset 2em 0 #B7B6C2;
     }
+
+    .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+      background-color: #2E2836 !important;
+  }

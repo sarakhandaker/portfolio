@@ -46,7 +46,7 @@ export class Blog extends Component {
                             </div>
                             <div className="col-lg-2 my-auto">
                                 <a rel="noopener" href="https://medium.com/@sarakhandaker">
-                                    <span>@sarakhandaker</span>
+                                    <span style={{"color": "#2E2836"}}>@sarakhandaker</span>
                                 </a>
                             </div>
                         </div>
