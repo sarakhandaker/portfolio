@@ -20,7 +20,13 @@ body {
 
 .contact {
   font-size: 25px;
+  font-family: 'Suez One', serif;
   color: rgba(0,0,0,.5);
+}
+
+h1 {
+  font-family: 'Suez One', serif;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 400px) {
@@ -61,6 +67,7 @@ nav.main-navigation ul.nav-list {
   margin-left: 30px;
   margin-top: 15px;
   font-size: 25px;
+  font-family: 'Suez One', serif;
   cursor: pointer;
   color: #D1D5DE;
 }
