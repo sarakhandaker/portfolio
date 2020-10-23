@@ -211,11 +211,6 @@ nav ul li:last-child {
   color: #B7B6C2;
   background-color: #2E2836;
 }
-
-.list-type4{
-  width:410px;
-  margin:0 auto;
-  }
   
   .list-type4 ul{
   counter-reset: li;
