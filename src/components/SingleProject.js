@@ -9,12 +9,12 @@ class Project extends Component {
     }
     render() {
         const opts = {
-            height: '270',
+            height: '300',
             width: '80%',
             playerVars: { autoplay: 1 }
         };
         return (
-        <div class="col-sm-6">
+        <div class="col-lg-8">
             <div className="card bg-light mb-3 cardproject" style={{"width": "8rem;"}}>
                 <br/>
                 <YouTube videoId={this.props.url} opts={opts} onReady={this._onReady} />

@@ -57,7 +57,7 @@ export class Blog extends Component {
                 <hr />
                 <div className="container">
                     <div className="row">
-                        {this.state.item ? this.state.item.slice(1,7).map((post, index) => (
+                        {this.state.item ? this.state.item.slice(0,6).map((post, index) => (
                             <ShowBlog key={index} {...post} {...this.state.profile} {...index} />
                         )) : null}
                     </div>

@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #B7B6C2;
+  background-color: #b4b5d1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,7 +39,6 @@ h1 {
   .techlogo {
     height: 60px;
     width: auto;
-    margin: 0;
   }
 
   nav.main-navigation ul.nav-list {
@@ -175,7 +174,7 @@ iframe {
 }
 
 .project-div, .contact-div {
-  background-color: #B7B6C2;
+  background-color: #b4b5d1;
 }
 
 .img-circle {
@@ -199,23 +198,28 @@ nav ul li:last-child {
 }
 
 .cardproject {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, .125);
   border-radius: .25rem;
   box-shadow: 0 5px 0 rgba(90, 97, 105, 0.11), 0 4px 8px rgba(90, 97, 105, 0.12), 0 10px 10px rgba(90, 97, 105, 0.06), 0 7px 70px rgba(90, 97, 105, 0.1);
   background-color: #fff;
-  border: none;
+  border-radius: 0.625rem;
+}
+
+.cardprojectlist {
+  max-width: 400px;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+  box-shadow: 0 5px 0 rgba(90, 97, 105, 0.11), 0 4px 8px rgba(90, 97, 105, 0.12), 0 10px 10px rgba(90, 97, 105, 0.06), 0 7px 70px rgba(90, 97, 105, 0.1);
+  background-color: #fff;
   border-radius: 0.625rem;
 }
 
 #selected {
-  color: #B7B6C2;
+  color: #b4b5d1;
   background-color: #2E2836;
 }
   
@@ -237,13 +241,13 @@ nav ul li:last-child {
   background: #2E2836;
   color: white;
   text-decoration: none;
-  box-shadow:inset 0.5em 0 #B7B6C2;
+  box-shadow:inset 0.5em 0 #b4b5d1;
   -webkit-transition: box-shadow 1s; /* For Safari 3.1 to 6.0 */
   transition: box-shadow 1s;
   }
   
   .list-type4 li:hover{
-    box-shadow:inset 2em 0 #B7B6C2;
+    box-shadow:inset 2em 0 #b4b5d1;
     }
 
     .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {

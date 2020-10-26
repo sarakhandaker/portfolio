@@ -59,8 +59,8 @@ class Work extends Component {
             <hr />
             <div className="container mb-4 pb-4">
                 <div className='work-content row card-deck'>
-                    <div class="col-sm-6">
-                        <div class="card cardproject p-3">
+                    <div class="col-lg-4">
+                        <div class="card cardprojectlist p-3">
                             <ul class="list-group list-group-flush text-left">
                                 {projects.map((project) => (
                                     <li

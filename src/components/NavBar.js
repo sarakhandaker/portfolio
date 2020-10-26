@@ -48,9 +48,9 @@ class Navbar extends Component {
                 <div>
                     <div className="contact">
                         <span style={{ "marginRight": "10px" }}> Contact: </span>
-                        <a href={`mailto:kttsara@gmail.com`}><i class="fa fa-envelope" style={{"color": "#2E2836"}}></i></a>
-                        <a href="https://www.linkedin.com/in/sara-khandaker/"><i class="fa fa-linkedin" style={{"color": "#2E2836"}}></i></a>
-                        <a href="https://github.com/sarakhandaker"><i class="fa fa-github" style={{"color": "#2E2836"}}></i></a>
+                        <a href={`mailto:kttsara@gmail.com`}><i class="fa fa-envelope" style={{"color": "#b4b5d1"}}></i></a>
+                        <a href="https://www.linkedin.com/in/sara-khandaker/"><i class="fa fa-linkedin" style={{"color": "#b4b5d1"}}></i></a>
+                        <a href="https://github.com/sarakhandaker"><i class="fa fa-github" style={{"color": "#b4b5d1"}}></i></a>
                     </div>
                 </div>
             </nav>
