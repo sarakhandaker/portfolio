@@ -7,12 +7,12 @@ class Navbar extends Component {
     };
     render() {
         return (
-            <nav class="navbar navbar-expand-lg navbar-light bg-light main-navigation fixed-top mb-2">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light main-navigation fixed-top mb-2">
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse mb-2" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto nav-list">
+                <div className="collapse navbar-collapse mb-2" id="navbarSupportedContent">
+                    <ul className="navbar-nav mr-auto nav-list">
                         <li className="nav-list-item"><Link className='link nav-item nav-link' activeClass="active" to="home" spy={true}
                             smooth={true}
                             offset={-70}
@@ -48,9 +48,9 @@ class Navbar extends Component {
                 <div>
                     <div className="contact">
                         <span style={{ "marginRight": "10px" }}> Contact: </span>
-                        <a href={`mailto:kttsara@gmail.com`}><i class="fa fa-envelope" style={{"color": "#b4b5d1"}}></i></a>
-                        <a href="https://www.linkedin.com/in/sara-khandaker/"><i class="fa fa-linkedin" style={{"color": "#b4b5d1"}}></i></a>
-                        <a href="https://github.com/sarakhandaker"><i class="fa fa-github" style={{"color": "#b4b5d1"}}></i></a>
+                        <a href={`mailto:kttsara@gmail.com`}><i className="fa fa-envelope" style={{"color": "#b4b5d1"}}></i></a>
+                        <a href="https://www.linkedin.com/in/sara-khandaker/"><i className="fa fa-linkedin" style={{"color": "#b4b5d1"}}></i></a>
+                        <a href="https://github.com/sarakhandaker"><i className="fa fa-github" style={{"color": "#b4b5d1"}}></i></a>
                     </div>
                 </div>
             </nav>

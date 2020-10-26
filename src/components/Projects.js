@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Project from './SingleProject';
+import kcapp from './KC_app.png'
 
 const projects = [
     {
@@ -38,11 +39,18 @@ const projects = [
         service: 'CLI app allows users to find the nearest KC Metro bus stop to any address and manage these stops and their commutes',
         url: '9jvFevyB9rw',
         git: "https://github.com/sarakhandaker/CLI_Transit_App_Ruby"
+    },
+    {
+        id: 6,
+        title: 'King County Metro Web App',
+        service: 'App allows users to find the nearest KC Metro bus stop to any address and manage these stops and their commutes',
+        img: kcapp,
+        git: "https://github.com/sarakhandaker/ASPNET-React-TransitApp"
     }
 ]
 
 
-class Work extends Component {
+class Projects extends Component {
 
     state = {
         project_id: 1
@@ -59,18 +67,16 @@ class Work extends Component {
             <hr />
             <div className="container mb-4 pb-4">
                 <div className='work-content row card-deck'>
-                    <div class="col-lg-4">
-                        <div class="card cardprojectlist p-3">
-                            <ul class="list-group list-group-flush text-left">
+                    <div className="col-lg-4 mb-4">
+                        <div className="card cardprojectlist p-3">
+                            <ul className="list-group list-group-flush text-left">
                                 {projects.map((project) => (
-                                    <li
-                                        key={project.id}
+                                    <li key={project.id}
                                         className="list-group-item"
                                         style={{ "color": "black", "cursor":"pointer" }}
                                         onClick={()=>this.setProject(project.id)}
-                                       id= {selectedProject.id=== project.id? "selected" :""}
-                                    >
-                                        {selectedProject.id=== project.id? <span style={{"color": "#B7B6C2"}}><i class="fa fa-play mr-3"></i><strong >{project.title}</strong></span>:project.title }
+                                       id= {selectedProject.id=== project.id? "selected" :""}>
+                                        {selectedProject.id=== project.id? <span style={{"color": "#B7B6C2"}}><i className="fa fa-play mr-3"></i><strong >{project.title}</strong></span>:project.title }
                                     </li>
                                 ))}
                             </ul>
@@ -82,6 +88,7 @@ class Work extends Component {
                         website={selectedProject.website}
                         url={selectedProject.url}
                         git={selectedProject.git}
+                        img= {selectedProject.img}
                     ></Project>
                 </div>
             </div>
@@ -89,4 +96,4 @@ class Work extends Component {
     }
 }
 
-export default Work;
+export default Projects;
