@@ -18,9 +18,11 @@ body {
   padding: 0;
 }
 
-.image-circle {
+.imgcircle {
   width: 100%;
   height: auto;
+  padding: 20px;
+  border-radius: 50%;
 }
 
 .contact {
@@ -34,11 +36,18 @@ h1 {
   font-weight: bold;
 }
 
-@media screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
+
+  .imgcircle {
+    width: 80vw;
+    height: auto;
+    padding: 10px;
+    border-radius: 50%;
+  }
 
   .techlogo {
-    height: 60px;
-    width: auto;
+    height: auto;
+    width: 80vw;
   }
 
   nav.main-navigation ul.nav-list {
