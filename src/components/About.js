@@ -26,7 +26,7 @@ class About extends Component {
                              My goal is to use my strong technical expertise to innovate software solutions for the smart urban environments of tomorrow.
                              I am passionate about sustainable, environmental design with a keen insterest in public transit.<br /><br />
                              I recently graduated from Flatiron School's Software Engineering Program.<br /><br />
-                             <a className="btn btn-primary" href="https://gist.github.com/sarakhandaker/23951838952ece007e6d94b9d21d919e">See my Resume</a>
+                             <a className="btn btn-primary" href="https://gist.github.com/sarakhandaker/23951838952ece007e6d94b9d21d919e">See My Resume</a>
                         </div>
                         <div className="col-lg-4 medium-widget-article__description" style={{ "color": "black", "fontSize": "20px" }}>
                             <div className="list-type4">
