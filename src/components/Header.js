@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import Profile_Pic from './profile.jpg'
+import Profile_Pic from './profile2.jpg'
 
 class Header extends Component {
     state = {}
