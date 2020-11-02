@@ -9,7 +9,7 @@ class About extends Component {
                 <hr />
                 <div className='about-content mt-3 p-3 container'>
                     <div className="row">
-                        <div className="col-lg-8 medium-widget-article__description" style={{ "color": "black", "fontSize": "20px" }}>
+                        <div className="col-lg-8 mb-3" style={{ "color": "black", "fontSize": "20px" }}>
                             <strong>Hello!</strong> <br /><br />
                             <img alt="techlogos" src={techlogo} className="techlogo" width="470"/>
                             <br /><br />
@@ -19,9 +19,9 @@ class About extends Component {
                              My goal is to use my strong technical expertise to innovate software solutions for the smart urban environments of tomorrow.
                              I am passionate about sustainable, environmental design with a keen insterest in public transit.<br /><br />
                              I recently graduated from Flatiron School's Software Engineering Program.<br /><br />
-                             <a className="btn btn-primary" href="https://gist.github.com/sarakhandaker/23951838952ece007e6d94b9d21d919e">See My Resume</a>
+                             <a className="btn btn-secondary" href="https://gist.github.com/sarakhandaker/23951838952ece007e6d94b9d21d919e">See My Resume</a>
                         </div>
-                        <div className="col-lg-4 medium-widget-article__description" style={{ "color": "black", "fontSize": "20px" }}>
+                        <div className="col-lg-4" style={{ "color": "black", "fontSize": "20px" }}>
                             <div className="list-type4">
                                 <ul className="skills-list" style={{ "listStyle": "none" }}>
                                     <li>JavaScript</li>

@@ -23,6 +23,7 @@ body {
   height: auto;
   padding: 20px;
   border-radius: 50%;
+  margin-top: 8%;
 }
 
 .contact {
@@ -258,3 +259,7 @@ nav ul li:last-child {
     .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
       background-color: #2E2836 !important;
   }
+
+  .btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+    background-color: #b4b5d1 !important;
+}
