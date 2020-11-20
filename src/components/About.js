@@ -27,6 +27,7 @@ class About extends Component {
                                     <li>JavaScript</li>
                                     <li>Ruby</li>
                                     <li>C#</li>
+                                    <li>Python</li>
                                     <li>SQL</li>
                                     <li>HTML &amp; CSS</li>
                                     <li>Bootstrap</li>
