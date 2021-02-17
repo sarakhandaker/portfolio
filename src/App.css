@@ -37,7 +37,7 @@ h1 {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
 
   .imgcircle {
     width: 80vw;
