@@ -5,6 +5,7 @@ import Navbar from './components/NavBar';
 import Header from './components/Header'
 import Projects from './components/Projects'
 import Blog from './components/Blog'
+import Read from './components/Read'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
         </div>
         <div className='Blog'>
           <Blog></Blog>
+        </div>
+        <div className='Read'>
+          <Read></Read>
         </div>
       </div>
     </>

@@ -10,11 +10,11 @@ export class Read extends Component {
 
     render() {
         return (
-            <div className='blog container mt-3 p-3'>
+            <div className='read container mt-3 p-3'>
                 <div id="gr_custom_widget_1613586538">
                     <div class="gr_custom_container_1613586538">
                         <h2 class="gr_custom_header_1613586538">
-                            <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/37327438-sara?shelf=read&amp;utm_medium=api&amp;utm_source=custom_widget">Recently Read</a>
+                            <a style={{ "text-decoration": "none" }} rel="nofollow" href="https://www.goodreads.com/review/list/37327438-sara?shelf=read&amp;utm_medium=api&amp;utm_source=custom_widget">Recently Read</a>
                         </h2>
                         <div class="gr_custom_each_container_1613586538">
                             <div class="gr_custom_book_container_1613586538">
@@ -71,10 +71,24 @@ export class Read extends Component {
                                 by <a rel="nofollow" href="https://www.goodreads.com/author/show/3190.F_Scott_Fitzgerald">F. Scott Fitzgerald</a>
                             </div>
                         </div>
-                        <br style="clear: both" />
-                        <center>
-                            <a rel="nofollow" href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0" src="https://s.gr-assets.com/images/widget/widget_logo.gif" /></a>
-                        </center>
+                    </div>
+                </div>
+                <div id="gr_custom_widget_1613586658">
+                    <div class="gr_custom_container_1613586658">
+                        <h2 class="gr_custom_header_1613586658">
+                            <a style={{"text-decoration": "none"}} rel="nofollow" href="https://www.goodreads.com/review/list/37327438-sara?shelf=currently-reading&amp;utm_medium=api&amp;utm_source=custom_widget">Sara&#39;s bookshelf: currently-reading</a>
+                        </h2>
+                        <div class="gr_custom_each_container_1613586658">
+                            <div class="gr_custom_book_container_1613586658">
+                                <a title="Range: Why Generalists Triumph in a Specialized World" rel="nofollow" href="https://www.goodreads.com/review/show/3843813368?utm_medium=api&amp;utm_source=custom_widget"><img alt="Range: Why Generalists Triumph in a Specialized World" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550048292l/41795733._SY75_.jpg" /></a>
+                            </div>
+                            <div class="gr_custom_title_1613586658">
+                                <a rel="nofollow" href="https://www.goodreads.com/review/show/3843813368?utm_medium=api&amp;utm_source=custom_widget">Range: Why Generalists Triumph in a Specialized World</a>
+                            </div>
+                            <div class="gr_custom_author_1613586658">
+                                by <a rel="nofollow" href="https://www.goodreads.com/author/show/7164089.David_Epstein">David   Epstein</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
