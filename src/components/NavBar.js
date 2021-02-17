@@ -43,6 +43,14 @@ class Navbar extends Component {
                             offset={-70}
                             duration={500}
                         >Blog</Link></li>
+                        <li className="nav-list-item"><Link
+                            className='link nav-item nav-link'
+                            to="Read"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >Currently Reading</Link></li>
                     </ul>
                 </div>
                 <div>
