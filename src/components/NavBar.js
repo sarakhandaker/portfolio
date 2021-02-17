@@ -50,7 +50,7 @@ class Navbar extends Component {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                        >Currently Reading</Link></li>
+                        >Bookshelf</Link></li>
                     </ul>
                 </div>
                 <div>
