@@ -3,8 +3,8 @@ import { Link, animateScroll as scroll } from "react-scroll";
 class Navbar extends Component {
     state = {}
     scrollToTop = () => {
-        scroll.scrollToTop();
-    };
+        scroll.scrollToTop()
+    }
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-light main-navigation fixed-top mb-2">
