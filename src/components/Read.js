@@ -17,11 +17,11 @@ export class Read extends Component {
                     <h2>Currently Reading</h2>
                     <div class="row mt-3 p-3">
                         <div class="col-sm">
-                            <img alt="Range: Why Generalists Triumph in a Specialized World" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550048292l/41795733._SX200_.jpg" />
+                        <img alt="The Atlas of Unusual Borders: Discover Intriguing Boundaries, Territories and Geographical Curiosities" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565781146l/45169008._SX200_.jpg" />
                         </div>
                         <div class="col-sm m-auto pt-3">
-                            <h4>Range: Why Generalists Triumph in a Specialized World </h4>
-                            by <a rel="nofollow" href="https://www.goodreads.com/author/show/7164089.David_Epstein">David   Epstein</a>
+                            <h4>The Atlas of Unusual Borders: Discover Intriguing Boundaries, Territories and Geographical Curiosities </h4>
+                            by <a rel="nofollow" href="https://www.goodreads.com/author/show/6907449.Zoran_Nikoli_">Zoran Nikolić</a>
                         </div>
                     </div>
                     <h2>Recently Read</h2>
