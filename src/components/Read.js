@@ -18,13 +18,23 @@ export class Read extends Component {
 
                     <div class="row mt-3 p-3">
                         <div class="col-sm">
+                            <img alt="Human Transit: How Clearer Thinking about Public Transit Can Enrich Our Communities and Our Lives" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349060198l/13211555._SY200_.jpg" />
+                        </div>
+                        <div class="col-sm m-auto pt-3">
+                            <h4>Human Transit: How Clearer Thinking about Public Transit Can Enrich Our Communities and Our Lives </h4>
+                            by <a rel="nofollow" href="https://www.goodreads.com/author/show/5367455.Jarrett_Walker">Jarrett Walker</a>
+                        </div>
+                    </div>
+
+                    {/* <div class="row mt-3 p-3">
+                        <div class="col-sm">
                             <img alt="Algorithms to Live By: The Computer Science of Human Decisions" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1454296875l/25666050._SY200_.jpg" />
                         </div>
                         <div class="col-sm m-auto pt-3">
                             <h4>Algorithms to Live By: The Computer Science of Human Decisions </h4>
                             by <a rel="nofollow" href="https://www.goodreads.com/author/show/4199891.Brian_Christian">Brian Christian</a>
                         </div>
-                    </div>
+                    </div> */}
 
                     <h2>Recently Read</h2>
 
