@@ -18,27 +18,28 @@ export class Read extends Component {
 
                     <div class="row mt-3 p-3">
                         <div class="col-sm">
-                            <img alt="Human Transit: How Clearer Thinking about Public Transit Can Enrich Our Communities and Our Lives" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349060198l/13211555._SY200_.jpg" />
-                        </div>
-                        <div class="col-sm m-auto pt-3">
-                            <h4>Human Transit: How Clearer Thinking about Public Transit Can Enrich Our Communities and Our Lives </h4>
-                            by <a rel="nofollow" href="https://www.goodreads.com/author/show/5367455.Jarrett_Walker">Jarrett Walker</a>
-                        </div>
-                    </div>
-
-                    {/* <div class="row mt-3 p-3">
-                        <div class="col-sm">
                             <img alt="Algorithms to Live By: The Computer Science of Human Decisions" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1454296875l/25666050._SY200_.jpg" />
                         </div>
                         <div class="col-sm m-auto pt-3">
                             <h4>Algorithms to Live By: The Computer Science of Human Decisions </h4>
                             by <a rel="nofollow" href="https://www.goodreads.com/author/show/4199891.Brian_Christian">Brian Christian</a>
                         </div>
-                    </div> */}
+                    </div>
 
                     <h2>Recently Read</h2>
 
                     <div class="row mt-3 p-3">
+                        <div class="col-sm pb-5">
+                            <div class="pb-3">
+                                <img alt="Human Transit: How Clearer Thinking about Public Transit Can Enrich Our Communities and Our Lives" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349060198l/13211555._SY100_.jpg" />
+                            </div>
+                            <div class="font-weight-bold">
+                                Human Transit: How Clearer Thinking about Public Transit Can Enrich Our Communities and Our Lives
+                            </div>
+                            <div class="gr_custom_author_1613588504">
+                                by <a rel="nofollow" href="https://www.goodreads.com/author/show/5367455.Jarrett_Walker">Jarrett Walker</a>
+                            </div>
+                        </div>
                         <div class="col-sm pb-5">
                             <div class="pb-3">
                                 <img alt="The Atlas of Unusual Borders: Discover Intriguing Boundaries, Territories and Geographical Curiosities" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565781146l/45169008._SX100_.jpg" />
@@ -61,7 +62,7 @@ export class Read extends Component {
                                 by <a rel="nofollow" href="https://www.goodreads.com/author/show/7164089.David_Epstein">David Epstein</a>
                             </div>
                         </div>
-                        <div class="col-sm pb-5">
+                        {/* <div class="col-sm pb-5">
                             <div class="pb-3">
                                 <img alt="Gut: The Inside Story of Our Body’s Most Underrated Organ" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435168687l/23013953._SY150_.jpg" />
                             </div>
@@ -71,7 +72,7 @@ export class Read extends Component {
                             <div class="gr_custom_author_1613588504">
                                 by <a rel="nofollow" href="https://www.goodreads.com/author/show/7831553.Giulia_Enders">Giulia Enders</a>
                             </div>
-                        </div>
+                        </div> */}
                         {/* <div class="col-sm pb-5">
                             <div class="pb-3">
                                 <img alt="The Atlas of Disease: Mapping Deadly Epidemics and Contagion from the Plague to the Zika Virus" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1534533036l/38509772._SX105_.jpg" />
