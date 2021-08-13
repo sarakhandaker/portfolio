@@ -31,7 +31,7 @@ export class Read extends Component {
                     <div class="row mt-3 p-3">
                         <div class="col-sm pb-5">
                             <div class="pb-3">
-                                <img alt="Human Transit: How Clearer Thinking about Public Transit Can Enrich Our Communities and Our Lives" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349060198l/13211555._SY100_.jpg" />
+                                <img alt="Human Transit: How Clearer Thinking about Public Transit Can Enrich Our Communities and Our Lives" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349060198l/13211555._SY150_.jpg" />
                             </div>
                             <div class="font-weight-bold">
                                 Human Transit: How Clearer Thinking about Public Transit Can Enrich Our Communities and Our Lives
